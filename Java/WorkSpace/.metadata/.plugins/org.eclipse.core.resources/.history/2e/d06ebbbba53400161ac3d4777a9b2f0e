@@ -1,0 +1,29 @@
+import java.util.Arrays;
+
+public class SelectionSort {
+
+	public static void main(String[] args) {
+		int[] numArr = { 6, 82, 12, 1, 4, 59, -32, 61 };
+
+		System.out.println("Original:");
+		System.out.println(Arrays.toString(numArr));
+
+		selectionSort(numArr);
+
+		System.out.println("Sorted:");
+		System.out.println(Arrays.toString(numArr));
+
+	}
+
+	static void selectionSort(int[] arr) {
+		
+
+	}
+
+	static void swap(int[] arr, int a, int b) {
+		int temp = arr[a];
+		arr[a] = arr[b];
+		arr[b] = temp;
+	}
+
+}

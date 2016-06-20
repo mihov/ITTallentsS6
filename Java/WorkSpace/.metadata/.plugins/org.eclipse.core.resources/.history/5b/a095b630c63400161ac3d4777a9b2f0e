@@ -1,0 +1,24 @@
+import javafx.geometry.Pos;
+
+public class RadixSort {
+
+	public static void main(String[] args) {
+		int[] arr = { 3213, 1322, 123, 221, 9731, 233, 92, 23, 9, 85181 };
+		
+	
+		for (int i = 0; i < 33; i++) {
+			System.err.println(digitAtPos(987654321, i));
+		}
+		
+
+	}
+
+	static int digitAtPos(int theDigit, int thePos) {
+		for (int i = 0; i < thePos; i++) {
+			theDigit/=10;
+		}
+		
+		return theDigit % 10;
+	}
+
+}

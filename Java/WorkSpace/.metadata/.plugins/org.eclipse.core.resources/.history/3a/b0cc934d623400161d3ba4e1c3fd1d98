@@ -1,0 +1,26 @@
+import java.util.Arrays;
+
+public class BubleSort {
+
+	public static void main(String[] args) {
+		int[] numArr = { 6, 82, 12, 1, 4, 59, -32, 61 };
+
+		System.out.println("Original:");
+		System.out.println(Arrays.toString(numArr));
+
+		bubleSort(numArr);
+
+		System.out.println("Sorted:");
+		System.out.println(Arrays.toString(numArr));
+	}
+
+	static void bubleSort(int[] arr) {
+		boolean nasSwap = false;
+		while (nasSwap) {
+			nasSwap = false;
+			
+			
+
+		}
+	}
+}

@@ -1,0 +1,10 @@
+
+public class BezDvoinik {
+
+	public static void main(String[] args) {
+		int[] arr = {4,5};
+
+		System.out.println(arr[0]^arr[1]);
+	}
+
+}
