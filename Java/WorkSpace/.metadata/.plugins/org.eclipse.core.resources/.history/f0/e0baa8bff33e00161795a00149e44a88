@@ -49,12 +49,10 @@ public class GSM {
 	}
 
 	public void printInfoForTheLastOutgoingCall() {
-		System.out.println(this.model + "> Last outgoing call to[" + this.lastOutgoingCall.getReceiver().simMobileNumber
-				+ "] duration [" + this.lastOutgoingCall.getDuration() + "]");
+		System.out.println(this.model + "> Last outgoing call to[" + this.lastOutgoingCall.getReceiver().simMobileNumber+"] duration ["+this.lastOutgoingCall.getDuration()+"]");
 	}
 
 	public void printInfoForTheLastIncomingCall() {
-		System.out.println(this.model + "> Last incoming call from[" + this.lastIncomingCall.getCaller().simMobileNumber
-				+ "] duration [" + this.lastIncomingCall.getDuration() + "]");
+		System.out.println(this.model + "> Last incoming call from[" + this.lastIncomingCall.getCaller().simMobileNumber +"] duration ["+this.lastIncomingCall.getDuration()+"]");
 	}
 }

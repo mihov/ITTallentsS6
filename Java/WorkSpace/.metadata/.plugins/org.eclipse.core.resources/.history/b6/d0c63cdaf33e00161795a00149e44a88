@@ -28,9 +28,6 @@ public class GSMTest {
 		
 		sony.printInfoForTheLastOutgoingCall();
 		samsung.printInfoForTheLastOutgoingCall();
-		
-		sony.printInfoForTheLastIncomingCall();
-		samsung.printInfoForTheLastIncomingCall();
 
 	}
 

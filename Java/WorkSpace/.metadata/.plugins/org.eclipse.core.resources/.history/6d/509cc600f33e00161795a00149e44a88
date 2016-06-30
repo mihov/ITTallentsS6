@@ -25,12 +25,6 @@ public class GSMTest {
 
 		System.out.println("Sony call duration: " + sony.getSumForCall() + "lv.");
 		System.out.println("Samsung call duration: " + samsung.getSumForCall() + "lv.");
-		
-		sony.printInfoForTheLastOutgoingCall();
-		samsung.printInfoForTheLastOutgoingCall();
-		
-		sony.printInfoForTheLastIncomingCall();
-		samsung.printInfoForTheLastIncomingCall();
 
 	}
 
