@@ -1,0 +1,10 @@
+package task2;
+
+public class Call {
+	public static float priceForAMinute = 0.2f;
+	
+	public String caller;
+	public String receiver;
+	public int duration;
+
+}

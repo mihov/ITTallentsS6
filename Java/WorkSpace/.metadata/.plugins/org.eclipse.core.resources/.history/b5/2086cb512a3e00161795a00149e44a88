@@ -1,0 +1,37 @@
+import java.math.BigInteger;
+import java.sql.Date;
+
+public class Computer {
+	private int year;
+	private float price;
+	private boolean isNotebook;
+	private int hardDiskMemory ;
+	private int freeMemory;
+	private String operationSystem;
+	
+	public Computer(int vYear, float vPrice, boolean vIsNotebook, int vHardDisk, String vOS) {
+		this.year = vYear;
+		this.price = vPrice;
+		this.isNotebook = vIsNotebook;
+		this.hardDiskMemory = vHardDisk ;
+		this.freeMemory = this.hardDiskMemory;
+		this.operationSystem = vOS;
+	}
+	
+	public Computer(){
+		
+	}
+	
+	public void changeOperationSystem(String newOperationSystem) {
+		this.operationSystem = newOperationSystem;
+	}
+	
+	public void useMemory(int memory) {
+		if(memory > this.freeMemory){
+			System.out.println("Not enough free memory!");
+		}else{
+			this.freeMemory -= memory;
+		}
+	}
+
+}

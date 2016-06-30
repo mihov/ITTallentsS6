@@ -1,0 +1,38 @@
+package task2;
+
+import org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14N11Method;
+
+public class GSM {
+	public String model;
+	private boolean hasSIMCard;
+	private SIM simCard;
+	public String simMobileNumber;
+
+	public int outgoingCallsDuration = 0;
+	public Call lastIncomingCall;
+	public Call lastOutgoingCall;
+
+	public boolean getHasSIMCard() {
+		return this.hasSIMCard;
+	}
+
+	public void call(GSM receiver, int duration) {
+		Call.DoCall(this, receiver, duration);
+	}
+
+	public void insertSIMCard(SIM newSIMCard) {
+		this.simCard = newSIMCard;
+		this.hasSIMCard = true;
+		this.simMobileNumber = this.simCard.getNumber();
+		System.out.println(this.model + "> New SIM card inserted.");
+		System.out.println(this.model + "> Your number is: " + this.simMobileNumber);
+	}
+
+	public void removeSIMCard() {
+		this.simCard = null;
+		this.hasSIMCard = false;
+		this.simMobileNumber = "No number";
+		System.out.println(this.model + "> SIM card remouved.");
+		System.out.println(this.model + "> Your have no number.");
+	}
+}

@@ -1,0 +1,22 @@
+package task2;
+
+public class Call {
+	public static float priceForAMinute = 0.2f;
+
+	public String caller;
+	public String receiver;
+	public int duration;
+
+	public static void DoCall(GSM initiator, GSM receiver, int duration) {
+		if (duration > 0 && initiator.getHasSIMCard() && receiver.getHasSIMCard()&& !initiator.equals(receiver)) {
+			initiator.outgoingCallsDuration += duration;
+			initiator.lastOutgoingCall = receiver.simMobileNumber;
+			receiver.lastIncomingCall = initiator.simMobileNumber;
+			System.out.println("["+initiator.simMobileNumber +"\t>>>\t"+receiver.simMobileNumber+"]\t["+duration+"]");
+		} else {
+
+		}
+
+	}
+
+}

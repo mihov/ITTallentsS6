@@ -1,0 +1,30 @@
+package task2;
+
+
+public class GSM {
+	public String model;
+	private boolean hasSIMCard;
+	private SIM simCard;
+	private String simMobileNumber;
+	
+	
+	public boolean getHasSIMCard(){
+		return this.hasSIMCard;
+	}
+	
+	public void insertSIMCard(SIM newSIMCard){
+		this.simCard = newSIMCard;
+		this.hasSIMCard = true;
+		this.simMobileNumber = this.simCard.getNumber();
+		System.out.println(this.model+"> New SIM card inserted.");
+		System.out.println(this.model+"> Your number is: "+this.simMobileNumber);
+	}
+	
+	public void removeSIMCard() {
+		this.simCard = null;
+		this.hasSIMCard = false;
+		this.simMobileNumber = "No number";
+		System.out.println(this.model+"> SIM card remouved.");
+		System.out.println(this.model+"> Your have no number.");
+	}
+}

@@ -1,0 +1,12 @@
+package task2;
+
+public class GSMTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SIM simCard01 = new SIM("Mtel", "0834567890");
+		simCard01.setNumber("0834567890");
+		
+	}
+
+}

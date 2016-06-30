@@ -1,0 +1,9 @@
+package task2;
+
+import com.sun.org.apache.xerces.internal.impl.dv.xs.DecimalDV;
+
+public class GSM {
+	public String model;
+	public boolean hasSIMCard;
+	public String simMobileNumber;
+}
