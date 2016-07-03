@@ -17,7 +17,6 @@
 <fullyQualifiedTypeName name="Computer"/>
 <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.dv.xs.DecimalDV"/>
 <fullyQualifiedTypeName name="task2.SIM"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="task2.GSM"/>
 <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14N11Method"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
@@ -26,4 +25,7 @@
 <fullyQualifiedTypeName name="Task2.Student"/>
 <fullyQualifiedTypeName name="Task2.StudentGroup"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Task3.Task"/>
+<fullyQualifiedTypeName name="Task3.Employee"/>
 </qualifiedTypeNameHistroy>
