@@ -1,0 +1,24 @@
+package Task2;
+
+public class TestStusent {
+
+	public static void main(String[] args) throws Exception {
+		Student st1 = new Student("Ivan", "Math", 25);
+		Student st2 = new Student("Boris", "Math", 25);
+		Student st3 = new Student("Petar", "Math", 25);
+
+		st1.setGrade(4.5);
+		st2.setGrade(5.5);
+		st3.setGrade(3.5);
+
+		StudentGroup sg1 = new StudentGroup("Math");
+		sg1.addStudent(st1);
+		sg1.addStudent(st2);
+		sg1.addStudent(st3);
+
+		//System.out.print("\nBest grade student is:");
+		System.out.println(sg1.theBestStudent().getName());
+
+	}
+
+}

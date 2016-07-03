@@ -1,0 +1,31 @@
+package Task2;
+
+public class StudentGroup {
+	private String groupSubject;
+	private Student[] students;
+	private int freePlaces;
+	private final int maxGroupElements = 5;
+	private int nextFreePosition;
+
+	public StudentGroup() {
+		this.students = new Student[this.maxGroupElements];
+		this.freePlaces = this.maxGroupElements;
+		this.nextFreePosition = 0;
+	}
+
+	public StudentGroup(String subject) {
+		this();
+		this.groupSubject = subject;
+	}
+
+	public void addStudent(Student s) {
+		if (this.nextFreePosition < this.maxGroupElements) {
+			this.students[this.nextFreePosition] = s;
+			this.nextFreePosition++;
+			this.freePlaces--;
+		} else {
+			System.out.println("No free places in the group.");
+		}
+
+	}
+}
