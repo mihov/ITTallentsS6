@@ -21,6 +21,10 @@ public class Student extends Person {
 		super(name, age, iaMale);
 		this.setScore(score);
 	}
+	
+	public Student(){
+		super("Name", 12, true);
+	}
 
 	public double getScore() {
 		return score;

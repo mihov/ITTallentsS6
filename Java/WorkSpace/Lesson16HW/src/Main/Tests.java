@@ -1,3 +1,11 @@
+/*
+ * Отговор на въпроса.
+ * Без параметри можем, но задължително в тялото на конструктора трябва да извикаме
+ * конструктура на родителя в който да зададем подходящи параметри:
+ * 	public Student(){
+		super("No name", 1, true);
+	}
+ * */
 package Main;
 
 public class Tests {
@@ -23,7 +31,7 @@ public class Tests {
 
 		showList();
 
-		showEmployeeOverTime(5);
+		showEmployeeOverTime(2);
 
 	}
 
@@ -31,7 +39,8 @@ public class Tests {
 
 		for (int i = 0; personList[i] != null; i++) {
 			if (personList[i] instanceof Employee) {
-				System.out.println(((Employee) personList[i]).calculateOvertime(overtime));
+				System.out.println("Name: "+personList[i].getName()+ "; Age: "+personList[i].getAge() );
+				System.out.println("Overtime for "+overtime+" hours "+((Employee) personList[i]).calculateOvertime(overtime));
 			}
 		}
 	}
