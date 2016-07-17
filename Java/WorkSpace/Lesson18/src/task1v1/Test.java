@@ -1,4 +1,4 @@
-package task1;
+package task1v1;
 
 import java.util.Scanner;
 
@@ -10,6 +10,8 @@ public class Test {
 		AllWork itTalents = new AllWork();
 		Employee[] employeeList = new Employee[numberOfEmployees];
 		boolean dayFinished = false;
+		
+
 
 		Scanner sc = new Scanner(System.in);
 

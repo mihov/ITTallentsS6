@@ -30,7 +30,6 @@
 <fullyQualifiedTypeName name="Main.Deal"/>
 <fullyQualifiedTypeName name="Main.Crupie"/>
 <fullyQualifiedTypeName name="Main.Player"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -44,4 +43,8 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const"/>
+<fullyQualifiedTypeName name="Task1v2.AllWork"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="task1v1.AllWork"/>
 </qualifiedTypeNameHistroy>

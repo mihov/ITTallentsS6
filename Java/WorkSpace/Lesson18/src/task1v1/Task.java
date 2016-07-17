@@ -1,4 +1,4 @@
-package task1;
+package task1v1;
 
 public class Task {
 	private String name;
@@ -7,6 +7,11 @@ public class Task {
 	public Task(String name, int workingHours) {
 		this.name = name;
 		this.workingHours = workingHours;
+	}
+	
+	private Task()
+	{
+		
 	}
 
 	public String getName() {
@@ -30,6 +35,7 @@ public class Task {
 		}
 	}
 
+	
 	@Override
 	public String toString() {
 		StringBuilder result = new StringBuilder();
@@ -41,4 +47,7 @@ public class Task {
 		return result.toString();
 	}
 
+	public Task clone(){
+		return (Task)this.clone();
+	}
 }

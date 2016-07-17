@@ -1,4 +1,4 @@
-package task1;
+package task1v1;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -86,7 +86,6 @@ public class Employee {
 		Task result = new Task("", 0);
 		result = this.currentTask;
 		this.currentTask = null;
-
 		return result;
 	}
 

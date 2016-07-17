@@ -1,4 +1,4 @@
-package task1;
+package Task1v2;
 import java.util.Random;
 
 public class Generator {
