@@ -45,7 +45,7 @@ public class Page {
 	}
 
 	public boolean searchWord(String word) {
-		return this.text.indexOf(word) > 0;
+		return this.text.indexOf(word) >= 0;
 	}
 	
 	public boolean containsDigits(){

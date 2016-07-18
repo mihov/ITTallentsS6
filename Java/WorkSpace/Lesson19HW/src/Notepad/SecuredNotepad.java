@@ -46,6 +46,23 @@ public class SecuredNotepad extends SimpleNotepad {
 	}
 
 	@Override
+	public boolean searchWord(String word) {
+		if (checkPassword())
+			return super.searchWord(word);
+		else
+			System.out.println("Wrong password!");
+		return false;
+	}
+
+	@Override
+	public void printAllPagesWithDigits() {
+		if (checkPassword())
+			super.printAllPagesWithDigits();
+		else
+			System.out.println("Wrong password!");
+	}
+
+	@Override
 	public void setTitleToPage(String title, int page) {
 		if (checkPassword())
 			super.setTitleToPage(title, page);
