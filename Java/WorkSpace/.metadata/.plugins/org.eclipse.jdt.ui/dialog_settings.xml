@@ -127,7 +127,7 @@
 		<item value="false" key="Comments"/>
 		<item value="2" key="InsertPosition.v2"/>
 		<item value="1" key="VisibilityModifier"/>
-		<item value="1" key="StringStyle"/>
+		<item value="0" key="StringStyle"/>
 		<item value="0" key="ToStringTemplateSelected"/>
 		<item value="false" key="LimitElements"/>
 		<item value="true" key="SkipNull"/>
