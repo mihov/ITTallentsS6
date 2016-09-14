@@ -8,16 +8,12 @@
 		<item value="250" key="dialogHeight"/>
 		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
 		</list>
 		<list key="orderedElements">
-			<item value="org.eclipse.egit.ui.RepositoriesView"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
-			<item value="git"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
@@ -35,6 +31,11 @@
 	<section name="ZipFileImportWizard">
 		<item value="true" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="E:\User\Desktop\Java\PostOfficeWorkShop src.zip"/>
+			<item value="E:\User\Desktop\Java\Lesson28 source.zip"/>
+			<item value="E:\User\Desktop\EpicApp src.zip"/>
+			<item value="E:\User\Desktop\Lesson29 source.zip"/>
+			<item value="E:\User\Desktop\Lesson27 source.zip"/>
 			<item value="E:\User\Desktop\Lesson26 source.zip"/>
 			<item value="E:\User\Desktop\Lesson23 source.zip"/>
 		</list>
